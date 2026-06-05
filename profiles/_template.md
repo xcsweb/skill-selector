@@ -128,7 +128,7 @@ skills:
 
     # 文件位置
     file_location:
-      skill_md: ".agents/skills/core-auth/SKILL.md"
+      skill_md: ".trae/skills/core-auth/SKILL.md"
       main_script: "src/hooks/business/auth/index.ts"
       related_files:
         - "src/service/api/auth.ts"
@@ -199,7 +199,7 @@ skills:
     dependencies: []
 
     file_location:
-      skill_md: ".agents/skills/utils-format/SKILL.md"
+      skill_md: ".trae/skills/utils-format/SKILL.md"
       main_script: "src/utils/common/formatter.ts"
 
     statistics:
@@ -256,7 +256,7 @@ skills:
         reason: "版本号格式化"
 
     file_location:
-      skill_md: ".agents/skills/infra-deploy/SKILL.md"
+      skill_md: ".trae/skills/infra-deploy/SKILL.md"
       main_script: "scripts/deploy.mjs"
 
     statistics:

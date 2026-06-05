@@ -23,10 +23,10 @@
 
 ### 安装（30 秒）
 
-将 `skill-selector` 目录复制到全局 Skills 目录：
+将 `skill-selector` 目录复制到项目的 `.trae/skills/` 目录下：
 
 ```
-~/.agents/skills/skill-selector/
+{project}/.trae/skills/skill-selector/
 ├── SKILL.md              # 核心元技能
 └── profiles/
     └── _template.md      # 项目缓存模板

@@ -38,7 +38,7 @@ metadata:
 
 **3 条安全边界：**
 
-1. **禁止修改系统 Skill**：不得修改 `{SKILL_HOME}/system/` 目录下的任何 Skill
+1. **禁止修改系统 Skill**：不得修改 `.trae/skills/system/` 目录下的任何 Skill
 2. **禁止破坏性操作**：删除/更新操作前必须备份，并提供回滚方案
 3. **禁止循环依赖**：Skill 之间不允许形成依赖环，检测到立即中断
 
@@ -73,7 +73,7 @@ metadata:
 ### 文件结构
 
 ```
-{SKILL_HOME}/
+{project}/.trae/skills/
 ├── skill-selector/
 │   ├── SKILL.md              # 本文件
 │   └── profiles/
