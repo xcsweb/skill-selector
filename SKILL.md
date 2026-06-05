@@ -130,12 +130,14 @@ metadata:
 ### 手动触发规则
 
 **关键词匹配（不区分大小写）：**
-- `use skill` / `调用 skill` / `使用 skill`
+- `use skill` / `调用 skill` / `使用 skill` / `选 skill` / `选择 skill`
 - `create skill` / `创建 skill` / `新建 skill`
 - `update skill` / `更新 skill` / `修改 skill`
 - `delete skill` / `删除 skill` / `移除 skill`
 - `list skills` / `列出 skills` / `查看 skills`
 - `check skill` / `检查 skill` / `skill 健康`
+- `refresh` / `刷新` / `rebuild` （缓存操作）
+- `dedup` / `去重` / `重复` （精简分析）
 
 **[Bug #1 兼容性提示机制]**
 当检测到手动触发时，如果存在多个匹配的 Skill：
